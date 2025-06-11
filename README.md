@@ -1,0 +1,2 @@
+# BinarySelector_Unity
+Unityのエディタ-上でbool値を2択で選択できるようにするGUIコントロール
