@@ -46,10 +46,8 @@ bool result = BinarySelectorGUILayout.BinarySelectField(input, labelText, falseT
 | trueText  | trueボタンの文字列  | True button text               |
 | result    | 結果の値            | Result value                   |
 
-:::note info
 この方法でも各文字列に`GUIContent`が使えます / 
 Can also use `GUIContent` for each string this way
-:::
 
 
 ## 導入方法 / English "How to introduction" is below this
