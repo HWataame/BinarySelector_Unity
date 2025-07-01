@@ -62,6 +62,13 @@ Can also use `GUIContent` for each string this way
 5. 入力欄に手順2でコピーしたURLを貼り付け、「Install」ボタンを押す
 
     ![導入方法3](https://github.com/user-attachments/assets/a08ad672-85c7-4f65-ac54-debce69e09d2)
+6. (必要に応じて)Assembly Definition Assetの管理下のコードで利用する場合、
+- `[BinarySelector]`を使う場合は`HW.BinarySelector`をAssembly Definition Referencesに追加し、
+
+    ![アセンブリ参照1](https://github.com/user-attachments/assets/f2cb6fe2-fd7f-4f3f-a8ad-bee07b989c11)
+- GUIパーツを直接使う場合は`HW.BinarySelector.Editor`をAssembly Definition Referencesに追加する
+
+    ![アセンブリ参照2](https://github.com/user-attachments/assets/3b479aea-8007-4a19-9f66-b2bd2d24b242)
 
 ## How to introduction / 日本語の「導入方法」は上にあります
 1. Install Git to your computer.
@@ -75,6 +82,13 @@ Can also use `GUIContent` for each string this way
 5. Paste the URL copied in Step 2 into the input field and press the "Install" button.
 
     ![導入方法3](https://github.com/user-attachments/assets/a08ad672-85c7-4f65-ac54-debce69e09d2)
+6. (If necessary) For use in code under the control of Assembly Definition Asset...
+- If you wanna use `[BinarySelector]`, add `HW.BinarySelector` to "Assembly Definition References" in your Assembly Definition Asset.
+
+    ![アセンブリ参照1](https://github.com/user-attachments/assets/f2cb6fe2-fd7f-4f3f-a8ad-bee07b989c11)
+- If you wanna use BinarySelector GUI directly, add `HW.BinarySelector.Editor` to "Assembly Definition References" in your Assembly Definition Asset.
+
+    ![アセンブリ参照2](https://github.com/user-attachments/assets/3b479aea-8007-4a19-9f66-b2bd2d24b242)
 
 ## ライセンス / License
 MITライセンスです / Using "MIT license"
